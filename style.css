@@ -1,4 +1,38 @@
 
-.container{
-    border: 2px solid red;
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* color: #fff; */
+   }
+
+/* Background Gradient */
+/* html {
+    height: 100%;
+} */
+
+body {
+    background-image: linear-gradient(-35deg, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+.container{
+    border: 3px solid white;
+}
+
+.navbar-brand{
+    letter-spacing: 2px;
+}
+
+h6{
+    color: white;
+    font-size: 10pt;
+}
+
+p{
+    color: white;
+    font-weight: 100;
+}
+
