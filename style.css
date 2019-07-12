@@ -35,8 +35,49 @@ h4{
 
 }
 
+/* -------------------------------------------------------------------------- */
+/* About Page Only */
 p{
     color: white;
     font-weight: 100;
+    line-height: 21pt;
+}
+/* -------------------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------------- */
+/* Contact Page Only */
+label{
+    color: white;
+    font-size: 12pt;
+    font-weight: lighter;
 }
 
+.form-control{
+    background-color: rgba( 255, 255, 255, 0.2 );
+    resize: none;
+}
+
+.form-control::placeholder{
+    color: white;
+    font-weight: lighter;
+    font-size: 12pt;
+}
+
+.btn-primary{
+    background-color: #ff7882;
+    color: #fff;
+    font-size: 11pt;
+    font-weight: 700;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+}
+
+.btn-primary:hover{
+    background-color: #020f75;
+}
+
+/* -------------------------------------------------------------------------- */
